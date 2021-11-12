@@ -114,6 +114,25 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
+  font-size: 16px;
+}
+
+header, footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
 }
 
 .div-1, .div-2, .div-3 {
@@ -128,6 +147,7 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
